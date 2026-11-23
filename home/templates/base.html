@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block titulo %}Piloto{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <a href="/">Principal</a> |
+        <a href="/sobre/">Sobre</a> |
+        <a href="/contato/">Contato</a> |
+        <a href="/ajuda/">Ajuda</a>
+    </nav>
+
+    {% block conteudo %}{% endblock %}
+</body>
+</html>
